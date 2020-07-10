@@ -79,6 +79,8 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         description.setVisibility(View.GONE);
 
         final ImageView show = (ImageView) listItemView.findViewById(R.id.show_more_button);
+        show.setVisibility(View.VISIBLE);
+
         final ImageView hide = (ImageView) listItemView.findViewById(R.id.hide_button);
         hide.setVisibility(View.GONE);
 
